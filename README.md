@@ -1,7 +1,7 @@
 # CÁCH CHẠY LEECH: 
 + Lấy truyện mới:
 
-Chạy `php leech DSTruyenMoi {page} {sitename} ` để quét danh sach truyện
+Chạy `php leech DSTruyenMoi {page} {sitename}` để quét danh sach truyện
 
 Tiếp tục chạy `php leech ThongTinTruyen {sitename}` để lấy thông tin từ danh sách đã quét
 
