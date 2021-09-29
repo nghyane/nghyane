@@ -5,13 +5,12 @@
 
 - 🌱 I’m currently learning Php, Nodejs
 
-- 👯 I’m looking to collaborate on Android and web developement
+- 👯 I'm currently working on the project hoimetruyen.com
 
-- 🤔 I’m looking for help with c# :-)
+- 🤔 I’m looking for help with c++, java :-)
 
-- 💬 Ask me about Android
+- 💬 Ask me about WebApp
 
 - 😄 Pronouns: He/His
 
-
-- ⚡ Fun fact: I spend most of my time reading Books and watching Netfix
+- ⚡ Fun fact: I spend most of my time reading Manga and watching Anime
