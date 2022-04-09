@@ -1,0 +1,128 @@
+<div class="fotads_fxmain">
+    <div class="fotbackcolor">
+        <div class="fotads_showalign" id="ads_showhide">
+            <div class="fotitems">
+                <div class="fotbuttonarea"><span class="fotbtclos">X</span></div>
+            </div>
+            <div style="width: 100%;">
+                <div onclick="window.open('https://www.i99906.com/?uagt=vip135&path=signup', '_blank').focus();">
+                    <img class="pc-img" src="https://pic1025.com/pic/350-50.gif" />
+                    <img class="mb-img" src="https://pic1025.com/pic/728-90.gif" />
+                </div>
+                
+  
+            </div>
+        </div>
+        <style>
+            .mb-img {
+                display: none;
+            }
+
+            .fotads_fxmain {
+                position: fixed;
+                bottom: 0px;
+                width: 100%;
+                height: auto;
+                z-index: 9995;
+                pointer-events: none;
+            }
+
+            .fotbackcolor {
+                width: 100%;
+                height: auto;
+                margin: 0px auto;
+                position: relative;
+                margin: auto;
+                text-align: -webkit-center;
+            }
+
+            .fotads_fxmain img {
+                width: 100%;
+            }
+            .fotitems {
+                float: left;
+                position: absolute;
+                background-color: rgb(255 63 63);
+                width: 25px;
+                height: 100%;
+                pointer-events: auto;
+                cursor: pointer;
+                z-index: 9999;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                overflow: hidden;
+                right: 0px;
+                top: -25px;
+                height: 25px;
+            }
+
+            .fotbuttonarea {
+                transform: rotate(270deg);
+                color: #bfbfbf;
+                letter-spacing: 2px;
+            }
+
+            .fotbtclos {
+                color: white;
+                margin-left: 5px;
+            }
+
+            .fotads_showalign {
+                position: relative;
+                height: auto;
+                background-color: transparent;
+                display: flex;
+                justify-content: center;
+                pointer-events: auto;
+                width: fit-content;
+            }
+
+            @media (max-width: 745px) {
+                .fotads_showalign {
+                    width: 100%;
+                }
+
+
+
+                .pc-img {
+                    display: none;
+                }
+
+                .mb-img {
+                    display: block;
+                }
+            }
+        </style>
+        <script>
+        function getRndInteger(min, max) {
+             return Math.floor(Math.random() * (max - min)) + min;
+        }
+        
+        var urls = ['https://www.i99906.com/?uagt=vip135&path=signup']
+        var hours = 24; // Reset when storage is more than 24hours
+        var now = Date.now();
+        var setupTime = localStorage.getItem('closeADS2');
+        if (now - setupTime > hours*60*60*1000) {
+            // $("#ads_showhide").hide();
+            $(window).on("load", function () {
+            $(".fotitems").click(function () {
+                window.open(urls[getRndInteger(0,2)], '_blank').focus();
+                
+                $("#ads_showhide").hide();
+                localStorage.clear()
+                localStorage.setItem('closeADS2', now)
+            });
+        });
+        } else {
+            $("#ads_showhide").hide();
+        }
+            
+        
+        
+
+        
+            
+        </script>
+    </div>
+</div>
